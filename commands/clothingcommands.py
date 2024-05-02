@@ -4,6 +4,11 @@ class CmdWear(default_cmds.MuxCommand):
     """
     Wear an object.
     syntax: Wear <object>
+    syntax: Wear <object> <style>
+
+    e.g. >> wear t-shirt tucked into her pants
+        others see: <character> is wearing:
+                    A t-shirt tucked into her pants.
     """
 
     key = "wear"
